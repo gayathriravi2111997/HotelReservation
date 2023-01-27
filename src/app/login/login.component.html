@@ -1,0 +1,53 @@
+<!--<div class="login-container">
+    <form >
+      <label>Username:</label>&nbsp;&nbsp;
+      <input type="text" [(ngModel)]="username" name="username">
+      <br><br>
+      <label>Password:</label>&nbsp;&nbsp;
+      <input type="password" [(ngModel)]="password" name="password">
+      <br><br>
+      <button (click)="login()">Login</button>
+    </form>
+  </div>
+  <div class="error-message" *ngIf="invalidCredentials">
+    Invalid username or password
+    <br><br>
+  </div>-->
+
+  <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loginn</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="form-warp">
+<div class="login-container">
+    <h1>Login
+    </h1>
+    <form >
+        <i class="fas fa-user"></i>
+      <label>Username:</label>
+      <input class="username-input" type="text" [(ngModel)]="username" name="username" placeholder="Type your username">
+      <i class="fas fa-lock"></i>
+      <label>Password:</label>
+     
+      <input class="password-input " type="password" [(ngModel)]="password" name="password" placeholder="Type your password">
+      <br><br>
+      <button (click)="login()" class="login-btn">Login</button>
+    </form>
+  </div>
+  <div class="error-message" *ngIf="invalidCredentials">
+    Invalid username or password
+    <br><br>
+  </div>
+
+</div>
+
+
+
+</body>
+</html>

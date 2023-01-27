@@ -1,0 +1,80 @@
+
+/* CONTACT us */
+
+.page-warp{
+    background: #ede4e0;
+}
+.contact-us a{
+    cursor: pointer;
+}
+.contact-us .page-spaceing{
+max-width: 1280px;
+margin: 0 auto;
+padding: 60px 0px;
+}
+.contact-us h3{
+    margin: 10px 0px 15px;
+}
+.contact-us .banner{
+    background: url(https://www.tajhotels.com/content/dam/luxury/hotels/taj-bangalore/images/gallery/1%20Facade.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+
+}
+.contact-us .banner .page-spaceing {
+    padding: 200px 0px;
+    text-align: center;
+}
+.contact-us .banner h1{
+    text-align: center;
+    color: #fff;
+    border: 3px solid #fff;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+}
+.contact-us .get-in-touch{
+    background: #ede4e0;
+    text-align: center;
+
+}
+.contact-us .grid-clm{
+   
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.contact-us .grid-clm>div{
+    border-right: 3px solid #000;
+}
+.contact-us .grid-clm >div:nth-child(3){
+    border: none;
+}
+.contact-us .bottom-i i{
+padding: 15px;
+cursor: pointer;
+}
+.contact-us .responsive-map{
+overflow: hidden;
+padding-bottom: 56.25%;
+position: relative;
+height: 0;
+max-width: 1200px;
+margin: 0 auto ;
+border: 2px solid #807b79;
+border-radius: 10px;
+
+}
+.contact-us .responsive-map iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+/* CONTACT us end*/
